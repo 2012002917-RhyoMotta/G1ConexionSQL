@@ -1,1 +1,1 @@
-Coneción con SQLServerManagementEstudio(SQL) y VisualEstudio(C#)
+Conección con SQLServerManagementEstudio(SQL) y VisualEstudio(C#)
