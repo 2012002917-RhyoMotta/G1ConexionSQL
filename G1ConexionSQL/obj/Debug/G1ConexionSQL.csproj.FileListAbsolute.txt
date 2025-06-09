@@ -8,3 +8,13 @@ C:\Users\LABORATORIO\Desktop\KevinLópez-5toA-clave26\G1ConexionSQL\G1ConexionSQ
 C:\Users\LABORATORIO\Desktop\KevinLópez-5toA-clave26\G1ConexionSQL\G1ConexionSQL\obj\Debug\G1ConexionSQL.csproj.CoreCompileInputs.cache
 C:\Users\LABORATORIO\Desktop\KevinLópez-5toA-clave26\G1ConexionSQL\G1ConexionSQL\obj\Debug\G1ConexionSQL.exe
 C:\Users\LABORATORIO\Desktop\KevinLópez-5toA-clave26\G1ConexionSQL\G1ConexionSQL\obj\Debug\G1ConexionSQL.pdb
+C:\Users\LABORATORIO\Downloads\G1ConexionSQL-main\G1ConexionSQL-main\G1ConexionSQL\bin\Debug\G1ConexionSQL.exe.config
+C:\Users\LABORATORIO\Downloads\G1ConexionSQL-main\G1ConexionSQL-main\G1ConexionSQL\bin\Debug\G1ConexionSQL.exe
+C:\Users\LABORATORIO\Downloads\G1ConexionSQL-main\G1ConexionSQL-main\G1ConexionSQL\bin\Debug\G1ConexionSQL.pdb
+C:\Users\LABORATORIO\Downloads\G1ConexionSQL-main\G1ConexionSQL-main\G1ConexionSQL\obj\Debug\G1ConexionSQL.csproj.AssemblyReference.cache
+C:\Users\LABORATORIO\Downloads\G1ConexionSQL-main\G1ConexionSQL-main\G1ConexionSQL\obj\Debug\G1ConexionSQL.Form1.resources
+C:\Users\LABORATORIO\Downloads\G1ConexionSQL-main\G1ConexionSQL-main\G1ConexionSQL\obj\Debug\G1ConexionSQL.Properties.Resources.resources
+C:\Users\LABORATORIO\Downloads\G1ConexionSQL-main\G1ConexionSQL-main\G1ConexionSQL\obj\Debug\G1ConexionSQL.csproj.GenerateResource.cache
+C:\Users\LABORATORIO\Downloads\G1ConexionSQL-main\G1ConexionSQL-main\G1ConexionSQL\obj\Debug\G1ConexionSQL.csproj.CoreCompileInputs.cache
+C:\Users\LABORATORIO\Downloads\G1ConexionSQL-main\G1ConexionSQL-main\G1ConexionSQL\obj\Debug\G1ConexionSQL.exe
+C:\Users\LABORATORIO\Downloads\G1ConexionSQL-main\G1ConexionSQL-main\G1ConexionSQL\obj\Debug\G1ConexionSQL.pdb

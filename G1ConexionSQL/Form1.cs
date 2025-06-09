@@ -66,5 +66,68 @@ namespace G1ConexionSQL
         {
             this.Close();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            //Relizar la consulta para visualizar el rtegistro
+            string sql = "Select * from Postres WHERE ID=" + textBox5.Text;
+            SqlCommand cmd = new SqlCommand(sql, conn);
+            cmd.CommandType = CommandType.Text;
+            SqlDataReader reader;
+            conn.Open();
+
+            try
+            {
+                reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    textBox5.Text = reader[0].ToString();
+                    textBox1.Text = reader[1].ToString();
+                    textBox2.Text = reader[2].ToString();
+                    textBox3.Text = reader[3].ToString();
+                }
+                else
+                {
+                    MessageBox.Show("Ningun Registro Encontrado con el ID");
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("ERROR: " + ex.ToString());
+            }
+            finally 
+            { 
+                conn.Close();
+            }
+            textBox5.Text = "";
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            string sql = "Delete from Postres WHERE ID=" + textBox4.Text;
+            SqlCommand cmd = new SqlCommand(sql, conn);
+            conn.Open();
+
+            try
+            {
+                int i = cmd.ExecuteNonQuery();
+                if (i > 0)
+                {
+                    MessageBox.Show("Registro Eliminado Correctamente");
+                    ObtenerRegistros();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("ERROR: " + ex.ToString());
+            }
+            finally 
+            { 
+                conn.Close(); 
+            }
+            textBox4.Text = "";
+        }
     }
 }
